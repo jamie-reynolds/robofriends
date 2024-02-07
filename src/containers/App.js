@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import CardList from "../components/CardList";
 import SearchBox from "../components/SearchBox";
 import Scroll from "../components/Scroll";
@@ -7,7 +7,7 @@ import './App.css';
 
 // this is an older way of using React code
 
-class App extends React.Component {
+class App extends Component {
     constructor() {
         super();
         this.state = {
