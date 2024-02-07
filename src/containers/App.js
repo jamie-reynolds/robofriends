@@ -5,6 +5,8 @@ import Scroll from "../components/Scroll";
 import ErrorBoundary from "../components/ErrorBoundary";
 import './App.css';
 
+// this is an older way of using React code
+
 class App extends React.Component {
     constructor() {
         super();
